@@ -1,0 +1,11 @@
+//# tsconfig.extends.json 输入一下内容
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  }
+}
